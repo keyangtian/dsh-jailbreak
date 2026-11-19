@@ -1,0 +1,4 @@
+# Bundle patch layer: 挂载运行时越狱插件
+- insert:
+    - id: dsh-jailbreak
+      name: dsh-jailbreak
