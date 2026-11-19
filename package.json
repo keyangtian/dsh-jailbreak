@@ -1,0 +1,19 @@
+{
+  "name": "dsh-jailbreak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runtime jailbreak for DeepSeek Harness: clear system prompt sections, allow all approvals, passthrough sandbox. No host file edits.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  }
+}
